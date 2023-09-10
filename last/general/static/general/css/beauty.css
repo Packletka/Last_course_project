@@ -1,0 +1,11 @@
+img {
+    float: left;
+    width: 200px;
+}
+
+
+ul {
+    font-size: 20px;
+    list-style: None;
+    float: left;
+}
