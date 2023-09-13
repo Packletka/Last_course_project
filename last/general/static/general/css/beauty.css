@@ -10,56 +10,25 @@ aside {
     width: 20%;
     padding: 3%;
     height: 100vh;
-    color: #ffcf6e;
-    border-right: 3px solid mistyrose;
+    border-right: 3px solid rgb(235, 48, 27);
 }
 
 
-ul {
-    font-size: 20px;
-    list-style: None;
-    float: left;
-    color:#ffffff
-}
-
-
-li {
-    color: lightcoral;
+.control_panel {
     display: block;
-    margin-top: 20px;
-    transition: transform 3s ease;
-}
-
-
-li :hover, a :hover {
-    color: #eb5959;
-    transform: scale(1.10);
-    text-decoration: None;
-}
-
-
-main .all {
+    font-size: 30px;
     float: left;
-    color: #000000;
-    margin-top: 100px;
-    text-align: center;
-    width: 75%;
-}
-
-main .all h1 {
-    font-size: 50px;
+    color: #ffffff;
 }
 
 
-main .all button {margin-bottom: 20px}
-
-
-img {
+.dog {
     float: left;
-    width: 200px;
+    width: 150px;
 }
 
 
-h3 {
-    font-size: 35px;
+.menu {
+    float: left;
+    font-size: large;
 }
