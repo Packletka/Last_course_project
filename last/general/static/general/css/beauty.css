@@ -15,20 +15,35 @@ aside {
 
 
 .control_panel {
-    display: block;
+    color: lightcoral;
+    margin-left: 10px;
     font-size: 30px;
+    list-style: none;
     float: left;
-    color: #ffffff;
 }
 
 
 .dog {
     float: left;
-    width: 150px;
+    width: 250px;
 }
 
 
 .menu {
+    font-size: 55px;
+    color: rgb(131, 120, 238);
     float: left;
-    font-size: large;
+}
+
+
+.dog_main {
+    height: 1000px;
+    width: 300px;
+}
+
+
+li {
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    transition: transform 3s ease;
 }
