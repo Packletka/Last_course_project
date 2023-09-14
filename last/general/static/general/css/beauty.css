@@ -1,5 +1,5 @@
 body {
-    background: #ff9e47;
+    background: rgb(71, 228, 162);
 }
 
 
@@ -46,4 +46,16 @@ li {
     color: rgb(255, 255, 255);
     margin-top: 20px;
     transition: transform 3s ease;
+    animation-name: text_decoration;
+    animation-duration: 1.5s;
+}
+
+
+@keyframes text_decoration{
+    0%{
+        left: 0px;
+    }
+    100% {
+        left: 10px;
+    }
 }
