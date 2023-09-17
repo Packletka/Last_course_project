@@ -44,18 +44,15 @@ aside {
 
 li {
     color: rgb(255, 255, 255);
+    display: block;
     margin-top: 20px;
-    transition: transform 3s ease;
-    animation-name: text_decoration;
-    animation-duration: 1.5s;
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(0.75, -1, 0.21, -1);
 }
 
 
-@keyframes text_decoration{
-    0%{
-        left: 0px;
-    }
-    100% {
-        left: 10px;
-    }
+li :hover, a :hover {
+    color: #ffae00;
+    transform: scale(1.15);
+    text-decoration: None;
 }
