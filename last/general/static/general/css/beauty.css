@@ -1,22 +1,17 @@
-body {
-    background: rgb(71, 228, 162);
-}
-
-
 aside {
     position: sticky;
     float: left;
     background: url("https://w.forfun.com/fetch/8a/8a806abff97fcb53a3826996839971b5.jpeg") 50%;
+    height: 100vh;
     width: 20%;
     padding: 3%;
-    height: 100vh;
     border-right: 3px solid rgb(235, 48, 27);
 }
 
 
 .control_panel {
     color: lightcoral;
-    margin-left: 10px;
+    margin-left: 15px;
     font-size: 30px;
     list-style: none;
     float: left;
@@ -36,16 +31,10 @@ aside {
 }
 
 
-.dog_main {
-    height: 1000px;
-    width: 300px;
-}
-
-
 li {
     color: rgb(255, 255, 255);
     display: block;
-    margin-top: 20px;
+    margin-top: 30px;
     transition-duration: 500ms;
     transition-timing-function: cubic-bezier(0.75, -1, 0.21, -1);
 }
@@ -53,6 +42,142 @@ li {
 
 li :hover, a :hover {
     color: #ffae00;
-    transform: scale(1.15);
+    transform: scale(1.20);
     text-decoration: None;
+}
+
+
+.anons_1 {
+    margin-left: 24.3%;
+    color: #c6b241;
+    padding-left: 100px;
+    font-size: 70px;
+    padding: 60px;
+}
+
+
+.dark_purple {
+    background: #9f3e9a;
+    height: 700px;
+}
+
+
+.interesting {
+    width: 550px;
+}
+
+
+.inline_txt_and_img {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.quest {
+    line-height: 90px;
+    font-size: 50px;
+    color: #ffc0cb;
+}
+
+
+.discribe {
+    font-size: 35px;
+    color: #ffc0cb;
+}
+
+
+.dark_pink {
+    background: #f66a98;
+    height: 1050px;
+}
+
+
+.anons_2 {
+    margin-left: 24.3%;
+    color: #8b00ff;
+    padding-left: 100px;
+    font-size: 70px;
+    padding: 60px;
+}
+
+
+.meme {
+    height: 600px;
+}
+
+
+.popular {
+    font-size: 29px;
+    color: #3e273d;
+}
+
+
+.light_pink {
+    background: #ff8997;
+    height: 900px;
+}
+
+
+.reasons {
+    display: block;
+    font-size: 35px;
+    line-height: 15px;
+}
+
+
+.inline_txt_and_img_2 {
+    display: flex;
+    margin-top: 50px;
+}
+
+
+.anons_3 {
+    margin-left: 24.3%;
+    color: #87cefa;
+    padding-left: 100px;
+    font-size: 70px;
+    padding: 60px;
+}
+
+
+.read {
+    height: 500px;
+}
+
+
+.reasons li {
+    color: #ffff00;
+}
+
+
+.blue {
+    background: #64adf1;
+    height: 1000px;
+}
+
+
+.anons_4 {
+    margin-left: 24.3%;
+    color: #cd4a4c;
+    padding-left: 100px;
+    font-size: 70px;
+    padding: 60px;
+}
+
+
+.all {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.all_imgs {
+    height: 400px;
+}
+
+
+.all_txt {
+    color: #ffffff;
+    font-size: 30px;
 }
