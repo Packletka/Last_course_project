@@ -221,6 +221,8 @@ li :hover, a :hover {
 
 
 .footer {
+    display: flex;
+    justify-content: space-evenly;
     height: 150px;
     background: black;
 }
@@ -231,4 +233,10 @@ li :hover, a :hover {
     font-size: 50px;
     padding: 30px;
     color: white;
+}
+
+
+.fork {
+    color: white;
+    font-size: 50px;
 }
