@@ -1,0 +1,12 @@
+{% extends 'general/pattern.html' %}
+{% block title %}Расширенная инфа{% endblock %}
+{% block content %}
+    <div class="all_comments">
+        <form method="post">
+            {{ article.comment }}
+            {{ article.date }}
+        </form>
+        <a href="{% url 'news_update' article.id %}" type="submit" class="btn btn-primary">Изменить</a>
+        <a href="{% url 'news_delete' article.id %}" type="submit" class="btn btn-warning">Удалить!</a>
+    </div>
+{% endblock %}

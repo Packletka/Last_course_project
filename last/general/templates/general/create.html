@@ -1,0 +1,18 @@
+{% extends 'general/pattern.html' %}
+
+{% block title %}Создать{% endblock %}
+
+{% block content %}
+    <div class="all_comments">
+        <h1>Создай свой уникальнейший коммент</h1>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.username }}<br>
+            {{ form.anons }}<br>
+            {{ form.comment }}<br>
+            {{ form.date }}<br>
+            <button type="submit" class="btn btn-danger">Создать коммент</button>
+            <span>{{ error }}</span>
+        </form>
+    </div>
+{% endblock %}

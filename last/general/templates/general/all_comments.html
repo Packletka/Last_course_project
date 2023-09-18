@@ -1,0 +1,24 @@
+{% extends 'general/pattern.html' %}
+{% block title %}Все комменты{% endblock %}
+{% block content %}
+    <div class="all_comments">
+        {% if comments %}
+            {% for el in comments %}
+                <div class="alert alert-primary">
+                    <h1>{{ el.username }}</h1>
+                    <p>
+                        {{ el.anons }}
+                    </p>
+                    <h1>
+                        {{ el.comment }}
+                    </h1>
+                    <h4>
+                        {{ el.date }}
+                    </h4>
+                </div>
+            {% endfor %}
+        {% else %}
+            <h1>У нас нет записей</h1>
+        {% endif %}
+    </div>
+{% endblock %}
