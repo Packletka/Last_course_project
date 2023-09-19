@@ -1,15 +1,18 @@
 {% extends 'general/pattern.html' %}
 {% block title %}Выносим окончательный вердикт{% endblock %}
 {% block content %}
-    <div class="all">
+    <div class="all_comments">
         <h1>Воу, воу, воу. Полегче, парень(•_•)</h1>
         <h4>Подумай, точно ли ты хочешь удалить свой коммент?</h4><br>
         <form method="post">
             {% csrf_token %}
             <button type="submit" class="btn btn-danger">Пойду удалять</button>
         </form>
-        <a href="{% url 'detail_comment' сomment.id %}">
+        <a href="{% url 'detail_comment' comment.id %}">
             <button type="submit" class="btn btn-info">Поглядеть на коммент</button>
         </a>
     </div>
 {% endblock %}
+<!--  Найди 100 отличий blyat:-->
+<!--сomment-->
+<!--comment-->

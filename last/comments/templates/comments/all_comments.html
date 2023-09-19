@@ -2,6 +2,7 @@
 {% block title %}Все комменты{% endblock %}
 {% block content %}
     <div class="all_comments">
+        <h1>Твои прекрасные комментарии в студию🤩🤩🤩</h1>
         {% if comments %}
             {% for comment in comments %}
                 <div class="alert alert-primary">
@@ -10,7 +11,7 @@
                         {{ comment.anons }}
                     </p>
                     <a href="{% url 'detail_comment' comment.id %}">
-                        <button type="submit" class="btn btn-info">Просмотреть коммент</button>
+                        <button type="submit" class="btn btn-primary">Просмотреть коммент</button>
                     </a>
                 </div>
             {% endfor %}

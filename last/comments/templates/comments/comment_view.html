@@ -1,11 +1,11 @@
 {% extends 'general/pattern.html' %}
-{% block title %}Расширеный коммент{% endblock %}
+{% block title %}Расширенный коммент{% endblock %}
 {% block content %}
 {% for comment in comments %}
-    <div class="all">
+    <div class="all_comments">
         <form method="post">
-            {{ comment.comment }}
-            {{ comment.date }}
+            <h1>{{ comment.comment }}</h1>
+            <h5>{{ comment.date }}</h5>
         </form>
     </div>
 {% endfor %}

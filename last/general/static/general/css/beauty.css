@@ -249,6 +249,7 @@ li :hover, a :hover {
 
 
 .all_comments {
+    font-size: 30px;
     margin-left: 15%;
     float: left;
     margin-top: 110px;
