@@ -1,6 +1,4 @@
-from django.shortcuts import render, redirect
-from .models import Comments
-from .forms import CommentsForm
+from django.shortcuts import render
 
 
 def main(request):
@@ -37,27 +35,3 @@ def Sword_Art_Online(request):
 
 def No_game_No_Life(request):
     return render(request, 'general/No_game_No_Life.html')
-
-
-def all_comments(request):
-    comments = Comments.objects.order_by('-id')  # Сортировка по новизне
-    return render(request, 'general/all_comments.html', {'comments': comments})
-
-
-def create(request):
-    error = ''
-    if request.method == 'POST':
-        form = CommentsForm(request.POST)
-        if form.is_valid():
-            form.save()
-            return redirect('all_comments')
-        else:
-            error = 'Коммент был плохим'
-
-    form = CommentsForm()
-
-    context = {
-        'form': form,
-        'error': error
-    }
-    return render(request, 'general/create.html', context)

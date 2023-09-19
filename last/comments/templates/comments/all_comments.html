@@ -1,0 +1,21 @@
+{% extends 'general/pattern.html' %}
+{% block title %}Все комменты{% endblock %}
+{% block content %}
+    <div class="all_comments">
+        {% if comments %}
+            {% for comment in comments %}
+                <div class="alert alert-primary">
+                    <h1>{{ comment.username }}</h1>
+                    <p>
+                        {{ comment.anons }}
+                    </p>
+                    <a href="{% url 'detail_comment' comment.id %}">
+                        <button type="submit" class="btn btn-info">Просмотреть коммент</button>
+                    </a>
+                </div>
+            {% endfor %}
+        {% else %}
+            <h1>У нас нет комментов</h1>
+        {% endif %}
+    </div>
+{% endblock %}

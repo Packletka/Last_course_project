@@ -1,0 +1,12 @@
+{% extends 'general/pattern.html' %}
+{% block title %}Расширенный коммент{% endblock %}
+{% block content %}
+    <div class="all_comments">
+        <form method="post">
+            {{ comment.comment }}
+            {{ comment.date }}
+        </form>
+        <a href="{% url 'comments_update' comment.id %}" type="submit" class="btn btn-primary">Изменить</a>
+        <a href="{% url 'comments_delete' comment.id %}" type="submit" class="btn btn-warning">Удалить!</a>
+    </div>
+{% endblock %}
