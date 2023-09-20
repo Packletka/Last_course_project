@@ -256,3 +256,85 @@ li :hover, a :hover {
     text-align: center;
     width: 50%;
 }
+
+
+.akame {
+    height: 1000px;
+    border-bottom: 4px solid #aaa;
+}
+
+
+.anons_4_anime {
+    margin-left: 24.3%;
+    color: #102c54;
+    padding-left: 100px;
+    font-size: 70px;
+    padding: 60px;
+    text-shadow: 5px 5px #558ABB;
+}
+
+
+.main_heroes {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 4px solid #aaa;
+}
+
+
+.all_imgs_2 {
+    border-radius: 50px;
+    width: 600px;
+    margin-top: 40px;
+}
+
+
+.div_title {
+    display: flex;
+    justify-content: space-around;
+    height: 280px;
+    border-bottom: 4px solid #aaa;
+}
+
+
+.title_2_others {
+    margin-left: 24.3%;
+    color: #102c54;
+    padding-left: 100px;
+    font-size: 70px;
+    padding: 60px;
+}
+
+
+.opinion {
+    color: #102c54;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+
+.container {
+    width: 600px;
+}
+
+
+.plot_container {
+    margin-left: 50%;
+    width: 700px;
+    display: block;
+    margin-bottom: 60px;
+}
+
+
+.plot {
+    border-bottom: 4px solid #aaa;
+}
+
+
+.anons_4_anime_rate {
+    color: #102c54;
+    padding-left: 100px;
+    font-size: 70px;
+    padding: 60px;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+
+}
