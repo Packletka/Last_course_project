@@ -26,6 +26,6 @@ class CommentsForm(ModelForm):
             }),
             'date': DateTimeInput(attrs={
                 'class': 'form-control',
-                'placeholder': 'Дата публикации',
+                'placeholder': '1970-01-01 00:00:01',
             })
         }

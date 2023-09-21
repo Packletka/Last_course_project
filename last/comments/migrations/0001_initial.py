@@ -18,7 +18,7 @@ class Migration(migrations.Migration):
                 ('username', models.CharField(max_length=50, verbose_name='Имя пользователя')),
                 ('anons', models.CharField(max_length=250, verbose_name='Немного о себе')),
                 ('comment', models.TextField(verbose_name='Комментарий')),
-                ('date', models.DateTimeField(verbose_name='Дата публикации')),
+                ('date', models.DateTimeField(verbose_name='1970-01-01 00:00:01')),
             ],
             options={
                 'verbose_name': 'Коммент',

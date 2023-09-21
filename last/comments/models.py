@@ -6,7 +6,7 @@ class Comments(models.Model):
     username = models.CharField('Имя пользователя', max_length=50)
     anons = models.CharField('Немного о себе', max_length=250)
     comment = models.TextField('Комментарий')
-    date = models.DateTimeField('Дата публикации')
+    date = models.DateTimeField('1970-01-01 00:00:01')
 
     def __str__(self):  # Вызывается в момент вывода объекта класса
         return self.username

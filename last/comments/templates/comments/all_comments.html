@@ -1,7 +1,8 @@
-{% extends 'general/pattern.html' %}
+{% extends 'general/for_all_comments.html' %}
 {% block title %}Все комменты{% endblock %}
 {% block content %}
     <div class="all_comments">
+
         <h1>(☞ﾟヮﾟ)☞Комментарии☜(ﾟヮﾟ☜)</h1>
         {% if comments %}
             {% for comment in comments %}
