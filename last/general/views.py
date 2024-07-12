@@ -33,5 +33,5 @@ def Sword_Art_Online(request):
     return render(request, 'general/Sword_Art_Online.html')
 
 
-def No_game_No_Life(request):
-    return render(request, 'general/No_game_No_Life.html')
+def No_Game_No_Life(request):
+    return render(request, 'general/No_Game_No_Life.html')
